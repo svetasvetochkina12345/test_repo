@@ -10,6 +10,6 @@ if __name__ == '__main__':
     
     args = parser.parse_args()
     try:
-        print(args.numerator / args.divisor)
+        printf(args.numerator / args.divisor)
     except:
         raise io.RumTimeError
